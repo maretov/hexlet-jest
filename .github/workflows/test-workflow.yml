@@ -1,7 +1,7 @@
-name: hello-world
+name: my-workflow
 on: push
 jobs:
-  my-job:
+  my-job
     runs-on: ubuntu-latest
     steps:
       - name: my-step
